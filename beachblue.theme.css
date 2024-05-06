@@ -1,0 +1,50 @@
+@name         Beach Blue Theme
+@description  A clean and animated Better Discord theme with a beautiful blue aesthetic and a beach background.
+@version      1.0.0
+@source       https://github.com/DeinBenutzername/DeinRepo
+@author       Dein_Name
+@namespace    Dein_Namespace
+@license      MIT
+@preprocessor css
+
+/* Beach Blue Theme CSS Code */
+@keyframes beachAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+body {
+  background-image: url('https://pixabay.com/get/gc73fb30232c5fca532c6f582a7d842a2d7d70737ba6e327e1ae45e699e787b2cc37ed202766d47b71cf4fd0364b703dc_1920.jpg');
+  background-size: cover;
+  animation: beachAnimation 20s ease infinite alternate;
+  font-family: 'Segoe UI', sans-serif; /* Ändere die Schriftart bei Bedarf */
+}
+
+/* Clean and modern look for chat and channels */
+.theme-dark {
+  --main-bg-color: #e6f7ff; /* Light blue */
+  --main-fg-color: #333; /* Dark text */
+  --accent-color: #0077cc; /* Deep blue accent */
+}
+
+/* Adjust chat input and messages for cleaner appearance */
+.channelTextArea-1HTP3C, .markup-2BOw-j {
+  background-color: rgba(230, 247, 255, 0.8); /* Light blue semi-transparent */
+  border: 1px solid #0077cc; /* Deep blue border */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.message-2qnXI6 {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Additional styles for a clean interface */
+/* Füge deine eigenen Anpassungen hier hinzu */
+
+/* Ende des Themes */
